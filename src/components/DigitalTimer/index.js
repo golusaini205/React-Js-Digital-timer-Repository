@@ -156,7 +156,7 @@ class DigitalTimer extends Component {
     const stringifiedMinutes = minutes > 9 ? minutes : `0${minutes}`
     const stringifiedSeconds = seconds > 9 ? seconds : `0${seconds}`
 
-    return `${stringifiedMinutes} : ${stringifiedSeconds}`
+    return `${stringifiedMinutes}:${stringifiedSeconds}`
   }
 
   render() {
